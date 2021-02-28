@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+*{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+.main{
+    display: flex;
+    align-items: stretch;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.video{
+    background-color: rgb(50, 50, 50);
+    color: white;
+    flex-grow: 4;
+    padding: 30px;
+    display: flex;
+    flex-flow: column;
+}
+
+.vidbox{
+    background-color: teal;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    height: 100%;
+}
+
+.vid > video{
+    border-radius: 20px;
+    width: 250px;
+}
+
+.controls{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    margin: 10px;
+}
+
+.end{
+    background-color: red;
+    color: white;
+    padding: 20px;
+    height: 65px;
+    width: 65px;
+    border-radius: 100%;
+    transform: rotate(135deg);
+}
+
+.chat{
+  background-color: rgb(80, 80, 80);
+  color: white;
+  flex-grow: 1;
+  padding: 30px;
+}
+
